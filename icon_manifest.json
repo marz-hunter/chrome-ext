@@ -1,0 +1,25 @@
+{
+    "short_name": "Sonar",
+    "name": "Big Beluga Sonar",
+    "icons": [
+        {
+            "src": "./logo/icon16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "./logo/icon24.png",
+            "type": "image/png",
+            "sizes": "24x24"
+        },
+        {
+            "src": "./logo/icon32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#1e222d",
+    "background_color": "#1e222d"
+}

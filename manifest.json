@@ -1,0 +1,74 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "version": "1.0.3",
+  "manifest_version": 3,
+  "name": "Sonar: Trade with AI | Real Order Data | Discounts & More",
+  "description": "Introducing Sonar by BigBeluga—the first AI-powered extension built for traders.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtdWSyvkUq3eoaOTBffOEe11wkSQBJwn+9E25nwcjJhAt9zM1EKrA02DmEtuxQ7zIvQ3NVMCYxgtpNwrnf2AS2cz5j6vsbaCiw3y7jKhfEmMNUgQ7Gm+bQMpgo14mCFPjbwEuPLGZSBq2VROizgtsCsCrMnDVVe5ihQzz2PVNu5u5iyowvwPRXl3ns9hoxjtl+xblnDcT3j2Qv53SkL6Wlcd0tZTvryc1ZSZrsVB2jquKGvoz3n23SvDDlu1K6D90e8stgVySfbX4VCvnzT+AuytFaBcZdHMxq2hOdBoHsPYaLqhnwgnMIJGbdgJj5hBjn8gWvCDUL7QAArT+tjE9EwIDAQAB",
+  "action": {
+    "default_popup": "./popup.html",
+    "default_icon": {
+      "16": "./logo/icon16.png",
+      "24": "./logo/icon24.png",
+      "32": "./logo/icon32.png"
+    }
+  },
+  "oauth2": {
+    "client_id": "30002741619-041elg095pngdhes7ebg5bc1rt54uk99.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/userinfo.profile"
+    ]
+  },
+  "permissions": ["storage", "identity"],
+  "host_permissions": [
+    "*://localhost/*",
+    "*://*.ngrok.dev/*",
+    "*://*.sonar-ext.com/*"
+  ],
+  "background": {
+    "service_worker": "worker.bundle.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.tradingview.com/chart/*"],
+      "js": ["main.bundle.js"],
+      "world": "MAIN"
+    },
+    {
+      "matches": ["*://*.tradingview.com/chart/*"],
+      "css": ["tradingview.css"],
+      "js": ["tradingview.bundle.js"]
+    },
+    {
+      "matches": ["*://*.tradingview.com/u/BigBeluga/"],
+      "css": ["profile.css"],
+      "js": ["profile.bundle.js"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "*://*.binance.com/*",
+        "*://*.binance.us/*",
+        "*://*.binance.je/*",
+        "*://*.binance.sg/*",
+        "*://*.bybit.com/*",
+        "*://*.kraken.com/*",
+        "*://*.kraken.pro/*",
+        "*://*.mexc.com/*",
+        "*://*.mexc.co/*",
+        "*://*.primexbt.com/*",
+        "*://*.primexbt.co/*",
+        "*://*.bitget.com/*",
+        "*://*.bitget.site/*",
+        "*://*.kucoin.com/*",
+        "*://*.kucoin.io/*"
+
+      ],
+      "css": ["referral.css"],
+      "js": ["referral.bundle.js"]
+    }
+  ]
+}

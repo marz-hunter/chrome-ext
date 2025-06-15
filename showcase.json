@@ -1,0 +1,35 @@
+{
+  "accent": "#3d75ff",
+  "scripts": [
+    {
+      "button": {
+        "label": "Get Access"
+      },
+      "date": "Mar 3",
+      "description": "Price action, market structures and smart money concepts all bundled into a single package. We've launched an oscillator that will change the way you trade.",
+      "id": "jequ7L0t",
+      "image": "https://cdn.prod.website-files.com/6811cbd81b38e6dc4f62dfde/6818e920445ebe3fc70a2835_2025-05-05_20-18-p-1080.png",
+      "title": "Market Core [BigBeluga]",
+      "url": "https://bigbeluga.com"
+    },
+    {
+      "button": { "label": "Get Access" },
+      "date": "Mar 3",
+      "description": "The main toolkit in the BigBeluga collection; focusing on signals, momentum and trend analysis. With 100% back tested data, take your trading to a new level.",
+      "id": "jequ7L0t",
+      "image": "https://cdn.prod.website-files.com/6811cbd81b38e6dc4f62dfde/6818e3df5d065692e14894e3_2025-05-05_20-00-p-1080.png",
+      "title": "Market Waves [BigBeluga]",
+      "url": "https://bigbeluga.com"
+    },
+    {
+      "button": { "label": "Get Access" },
+      "date": "Mar 3",
+      "description": "Surf the waves of the market with the Beluga Waves Oscillator. Our iconic one of a kind oscillator will help you catch those market moves.",
+      "id": "jequ7L0t",
+      "image": "https://cdn.prod.website-files.com/6811cbd81b38e6dc4f62dfde/6818fc93251cb58c2bbec2d0_2025-05-05_20-43%20(1)-p-1080.png",
+      "title": "Beluga Nautilus [BigBeluga]",
+      "url": "https://bigbeluga.com"
+    }
+  ],
+  "title": "Check Out Our Premium Indicators"
+}

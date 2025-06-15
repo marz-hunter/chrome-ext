@@ -1,0 +1,86 @@
+[
+  {
+    "name": "mexc",
+    "match": ["https://*.mexc.*/register"],
+    "target": "https://www.mexc.com/auth/signup?inviteCode=2w8ZP",
+    "subtitle": "$100 deposit bonus",
+    "description": "Get Big Beluga Premium Indicators for FREE + Prizes up to $3000",
+    "theme": {
+      "logo": "https://altcoinsbox.com/wp-content/uploads/2023/01/mexc-logo.png",
+      "text": "#fff",
+      "accent": "#1463ff"
+    }
+  },
+  {
+    "name": "bybit",
+    "subtitle": "$100 deposit bonus",
+    "match": ["https://*.bybit.*/*/register"],
+    "target": "https://www.bybit.com/en/register?ref=NZMRQ5%230",
+    "description": "Get Big Beluga Premium Indicators FREE + Prices up to $30,000",
+    "theme": {
+      "logo": "https://blockchain-expo.com/wp-content/uploads/2024/03/bybit-logo-white.png",
+      "text": "#000000",
+      "accent": "#F0B90B"
+    }
+  },
+  {
+    "name": "kraken",
+    "subtitle": "$200 deposit bonus",
+    "match": ["https://*.kraken.*/sign-up"],
+    "target": "https://www.kraken.com/sign-up?clickid=zUpWPzzvTxycUFIxVN1lxRnJUksTvmyu5SjiWg0&utm_source=Impact&utm_medium=Affiliate&utm_campaign=6206737&utm_content=Online%20Tracking%20Link&irclickid=zUpWPzzvTxycUFIxVN1lxRnJUksTvmyu5SjiWg0&ref_url_custom=&irgwc=1&mpid=6206737",
+    "description": "Plus get BigBeluga Premium Indicators FREE",
+    "theme": {
+      "logo": "https://altcoinsbox.com/wp-content/uploads/2023/01/kraken-logo.png",
+      "text": "#fff",
+      "accent": "#7132f5"
+    }
+  },
+  {
+    "name": "binance",
+    "subtitle": "$100 fee discount",
+    "match": ["https://accounts.binance.*/*/register"],
+    "target": "https://accounts.binance.com/en/register?ref=486728891",
+    "description": "Plus get BigBeluga Premium Indicators FREE",
+    "theme": {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Binance_Logo.png/960px-Binance_Logo.png?20201023063027",
+      "text": "#000000",
+      "accent": "#F0B90B"
+    }
+  },
+  {
+    "name": "primexbt",
+    "subtitle": "$2,200 deposit rewards",
+    "match": ["https://*.primexbt.*/id/sign-up"],
+    "target": "https://ref.primexbt.direct/1789339",
+    "description": "Plus get Big Beluga Premium Indicators FREE",
+    "theme": {
+      "logo": "https://financefeeds.com/wp-content/uploads/2024/06/PrimeXBT.png",
+      "text": "#fff",
+      "accent": "#2575d2"
+    }
+  },
+  {
+    "name": "bitget",
+    "subtitle": "$7,700 USDT in prizes",
+    "match": ["https://*.bitget.*/register", "https://*.bitget.*/**/register"],
+    "target": "https://share.bitget.com/u/S9CVKDR8",
+    "description": "$30 BGB in referral rewards + Big Beluga Premium Indicators FREE",
+    "theme": {
+      "logo": "https://coin-images.coingecko.com/coins/images/11610/large/Bitget_logo.png?1736925727",
+      "text": "#fff",
+      "accent": "#00b6db"
+    }
+  },
+  {
+    "name": "kucoin",
+    "subtitle": "$20 deposit bonus",
+    "match": ["https://*.kucoin.*/**/signup"],
+    "target": "https://www.kucoin.com/r/af/rESTLD1",
+    "description": "Plus get Big Beluga Premium Indicators FREE",
+    "theme": {
+      "logo": "https://altcoinsbox.com/wp-content/uploads/2023/01/kucoin-logo.png",
+      "text": "#fff",
+      "accent": "#01BC8D"
+    }
+  }
+]
